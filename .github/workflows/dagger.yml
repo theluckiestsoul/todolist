@@ -19,7 +19,8 @@ jobs:
           version: "latest"
           verb: call
           module: github.com/kpenfound/dagger-modules/golang@v0.2.0
-          args: test --source=. stdout
+          args: test --source=.
+          
   build:
     name: build
     runs-on: ubuntu-latest
