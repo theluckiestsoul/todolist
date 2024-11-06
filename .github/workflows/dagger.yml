@@ -18,7 +18,7 @@ jobs:
         with:
           version: "latest"
           verb: call
-          args: test --source=.
+          args: test --src . stdout
 
   build:
     name: build
